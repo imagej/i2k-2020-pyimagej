@@ -7,6 +7,6 @@
 [submodule "dependencies/pyimagej"]
 	path = dependencies/pyimagej
 	url = https://github.com/imagej/pyimagej
-[submodule "dependencies/jpype"]
-	path = dependencies/jpype
+[submodule "dependencies/jpype1"]
+	path = dependencies/jpype1
 	url = https://github.com/jpype-project/jpype
