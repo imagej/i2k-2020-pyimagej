@@ -1,0 +1,5 @@
+jpype
+scyjava
+imglyb
+pyimagej
+
