@@ -14,8 +14,3 @@ dependencies:
   - python=3.7.8
   - scikit-image
   - scipy
-  - pip:
-    - dependencies/jpype1
-    - dependencies/scyjava
-    - dependencies/imglyb
-    - dependencies/pyimagej
