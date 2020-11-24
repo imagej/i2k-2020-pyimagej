@@ -11,40 +11,11 @@ Note: **do not** run your conda terminal as an administrator (Windows) or your c
 
 ### Installation
 
-Clone this repository and run `setup.sh` or `setup.bat`, as appropriate for your OS. This will do the following:
+Clone this repository and from this directory run:
+1. `conda env create --file environment.yml`
+1. `conda activate i2k-2020`
+1. `setup.sh` (Mac/Linux) or `setup.bat` (Windows), as appropriate for your OS.
 
-* Create and activate a new `i2k-2020` conda environment
-* Use this environment to launch the `jupyter` entry point
+### Running the notebook 
 
-If you later would like to restart the `i2k-2020` jupyter notebooks, you can do so from a conda-enabled terminal:
-```
-cd /path/to/i2k-2020
-conda activate i2k-2020
-jupyter notebook
-```
-
-Note: changing the working directory is not strictly necessary, but makes browsing the notebooks simpler.
-
-
-### Troubleshooting
-
-#### CommandNotFoundError
-
-If you see this message while running `setup.sh`:
-
-```
-CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
-To initialize your shell, run
-
-    $ conda init <SHELL_NAME>
-```
-
-it is likely because the script is running in `bash` but your `conda` environment is initialized in a different shell. You should be able to fix this by changing the first line of `setup.sh` to:
-```
-#!/bin/[your_shell]
-```
-
-If that doesn't work and you are using a specialized terminal program, try:
-1. Switching to your system's standard terminal 
-1. Run `conda init` in the standard terminal to set it as your designated `conda` terminal
-1. Re-run `setup.sh` from the standard terminal
+1. `jupyter notebook`

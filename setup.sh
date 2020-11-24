@@ -1,10 +1,4 @@
 #!/bin/sh
 git submodule init
 git submodule update
-cd dependencies
-conda env create --file environment.yml
-conda activate i2k-2020
-easy_install pip
-xargs -L 1 pip install < requirements.txt
-cd ../notebooks 
-upyter notebook
+xargs -L 1 pip install < dependencies/requirements.txt
