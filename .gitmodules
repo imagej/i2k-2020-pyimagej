@@ -1,9 +1,0 @@
-[submodule "dependencies/scyjava"]
-	path = dependencies/scyjava
-	url = https://github.com/scijava/scyjava.git
-[submodule "dependencies/imglyb"]
-	path = dependencies/imglyb
-	url = https://github.com/imglib/imglyb.git
-[submodule "dependencies/pyimagej"]
-	path = dependencies/pyimagej
-	url = https://github.com/imagej/pyimagej

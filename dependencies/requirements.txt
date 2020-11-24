@@ -1,4 +1,0 @@
-dependencies/scyjava
-dependencies/imglyb
-dependencies/pyimagej
-

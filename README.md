@@ -14,7 +14,6 @@ Note: **do not** run your conda terminal as an administrator (Windows) or your c
 Clone this repository and from this directory run:
 1. `conda env create --file environment.yml`
 1. `conda activate i2k-2020`
-1. `setup.sh` (Mac/Linux) or `setup.bat` (Windows), as appropriate for your OS.
 
 ### Running the notebook 
 
