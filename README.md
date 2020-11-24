@@ -11,7 +11,19 @@ Note: **do not** run your conda terminal as an administrator (Windows) or your c
 
 ### Installation
 
-Clone this repository and run `setup.sh` or `setup.bat`, as appropriate for your OS.
+Clone this repository and run `setup.sh` or `setup.bat`, as appropriate for your OS. This will do the following:
+
+* Create and activate a new `i2k-2020` conda environment
+* Use this environment to launch the `jupyter` entry point
+
+If you later would like to restart the `i2k-2020` jupyter notebooks, you can do so from a conda-enabled terminal:
+```
+cd /path/to/i2k-2020
+conda activate i2k-2020
+jupyter notebook
+```
+
+Note: changing the working directory is not strictly necessary, but makes browsing the notebooks simpler.
 
 
 ### Troubleshooting
