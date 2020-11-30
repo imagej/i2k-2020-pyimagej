@@ -8,6 +8,7 @@ dependencies:
   - jgo=1.0.0
   - jpype1
   - maven=3.6.0
+  - napari=0.4.2
   - notebook=6.1.5
   - numpy=1.19.4
   - openjdk=8.0.265
