@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - imglyb=1.0.0
   - ipywidgets=7.5.1
   - jgo=1.0.0
   - jpype1
@@ -14,8 +15,7 @@ dependencies:
   - python=3.7.8
   - scikit-image
   - scipy
+  - scyjava=1.1.0
   - pip:
     - git+https://github.com/jpype-project/jpype.git@bffe61e161b0d3f9825664a4815b35a82cbe9919#egg=jpype1
-    - git+https://github.com/scijava/scyjava.git@5953f6671b7f2568a512762d77b03d351c4752cb#egg=scyjava
-    - git+https://github.com/imglib/imglyb.git@15cd4665433c6b9a151d5361d41a0c8324ed8df2#egg=imglyb
     - git+https://github.com/imagej/pyimagej.git@9702f94f2f11865d02de63bc82ead47ce510ab1b#egg=pyimagej
