@@ -4,6 +4,8 @@ channels:
   - defaults
 dependencies:
   - imglyb=1.0.0
+  - itk
+  - itkwidgets=0.32.0
   - ipywidgets=7.5.1
   - jgo=1.0.0
   - jpype1
