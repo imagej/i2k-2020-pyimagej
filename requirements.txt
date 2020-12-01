@@ -1,0 +1,14 @@
+appnope==0.1.0 # NB: 0.1.1 on PyPI is broken
+imglyb==1.0.0
+ipywidgets==7.5.1
+itk==5.1.1
+itkwidgets==0.32.0
+jgo==1.0.0
+jpype1==1.2.0
+jupyter-contrib-nbextensions==0.5.1
+napari==0.4.2
+notebook==6.1.5
+numpy==1.19.4
+pyimagej==1.0.0
+scikit-image==0.17.2
+scyjava==1.1.0
