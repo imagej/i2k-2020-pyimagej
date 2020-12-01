@@ -1,0 +1,19 @@
+name: i2k-2020-pyimagej
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - imglyb=1.0.0
+  - ipywidgets=7.5.1
+  - itk=5.1.1
+  - itkwidgets=0.32.0
+  - jgo=1.0.0
+  - jpype1=1.2.0
+  - jupyter_contrib_nbextensions=0.5.1
+  - notebook=6.1.5
+  - numpy=1.19.4
+  - openjdk=8
+  - pyimagej=1.0.0
+  - python=3.8
+  - scikit-image=0.17.2
+  - scyjava=1.1.0
