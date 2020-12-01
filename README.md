@@ -62,7 +62,7 @@ In that case, you will need to install the following things:
 
 * With conda:
   ```
-  conda activate pyimagej
+  conda activate i2k-2020-pyimagej
   jupyter notebook
   ```
 * With pip:
