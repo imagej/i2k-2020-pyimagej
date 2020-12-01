@@ -1,7 +1,7 @@
-# PyImageJ: Combining ImageJ and Fiji with tools in the Python ecosystem
+# Combining ImageJ and Fiji with tools in the Python ecosystem
 
-This repository houses the PyImageJ workshop from the [I2K 2020
-conference](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends).
+This repository houses the PyImageJ workshop from the
+[I2K 2020 conference](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends).
 
 ## Quick start
 
@@ -56,7 +56,6 @@ In that case, you will need to install the following things:
   ```
   cd i2k-2020-pyimagej
   pip install -r requirements.txt
-  jupyter contrib nbextension install
   ```
 
 ### 4. Open the notebooks
