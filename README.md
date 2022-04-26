@@ -1,7 +1,7 @@
 # Combining ImageJ and Fiji with tools in the Python ecosystem
 
 This repository houses the PyImageJ workshop from the
-[I2K 2020 conference](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends).
+[I2K 2020 conference](https://imagej.net/events/i2k-2020).
 
 ## Quick start
 
